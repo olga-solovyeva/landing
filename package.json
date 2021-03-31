@@ -1,0 +1,27 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "simple landing",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olga-solovyeva/landing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olga-solovyeva/landing/issues"
+  },
+  "homepage": "https://github.com/olga-solovyeva/landing#readme"
+}
