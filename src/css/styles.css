@@ -216,5 +216,14 @@ Hides the menu at `48em`, but modify this based on your app's needs.
     position: relative;
     left: 150px; } }
 
-.testing {
-  width: 71.42857%; }
+.header__logo {
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.0676924px;
+  color: #1F0E93; }
+
+.header__wrapper {
+  display: flex;
+  width: 100%; }
