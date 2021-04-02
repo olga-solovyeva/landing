@@ -42,7 +42,7 @@
         var elements = getElements();
 
         if (e.target.id === elements.menuLink.id) {
-            toggleAll();
+            toggleAll()
             e.preventDefault();
         } else if (elements.menu.className.indexOf('active') !== -1) {
             toggleAll();
