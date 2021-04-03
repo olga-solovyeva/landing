@@ -224,7 +224,7 @@ Hides the menu at `48em`, but modify this based on your app's needs.
   letter-spacing: 0.0676924px;
   color: #1F0E93; }
 
-.about__subtitle {
+.subtitle {
   font-family: Heebo;
   font-style: normal;
   font-weight: bold;
@@ -232,25 +232,34 @@ Hides the menu at `48em`, but modify this based on your app's needs.
   line-height: 15px;
   text-align: center;
   letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #EC4F4F; }
+  text-transform: uppercase; }
+  .subtitle-red {
+    color: #EC4F4F; }
+  .subtitle-gray {
+    color: #A1A1A1; }
 
-.about__title {
+.title {
   font-family: Heebo;
   font-style: normal;
   font-weight: 300;
   font-size: 42px;
   line-height: 62px;
   text-align: center;
-  letter-spacing: 0.157949px;
-  color: #1F0E93; }
+  letter-spacing: 0.157949px; }
+  .title-navy {
+    color: #1F0E93; }
+  .title-green {
+    color: #0E936E; }
 
-.about__text {
+.text {
   font-family: Heebo;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 36px;
   text-align: center;
-  letter-spacing: 0.0676924px;
-  color: #B2B2CD; }
+  letter-spacing: 0.0676924px; }
+  .text-gray {
+    color: #B2B2CD; }
+  .text-dark-gray {
+    color: #8D88A5; }
