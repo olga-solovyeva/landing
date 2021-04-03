@@ -140,10 +140,40 @@
             </div>
         </div>
     <div class="contact">
-        Do You Have Any Questions?
-        Get in touch
-        Want to join us? Send us a word and we’ll get back to you with a personalized offer!
+        <h6 class="subtitle subtitle-gray"> Do You Have Any Questions?</h6>
+        <h2 class="title title-orange"> Get in touch</h2>
+        <p class="text text-dark-gray">Want to join us? Send us a word and we’ll get back to you with a personalized offer!</p>
         <div class="contact__form">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+            </div>
+            <form>
+                <div class="mb-3 row">
+                    <div class="col">
+                        <label for="contactFirstName" class="form-label"></label>
+                        <input type="text" class="form-control" id="contactFirstName" placeholder="Your first name">
+                        <img src="src/img/icons/person-ico.svg">
+                    </div>
+                    <div class="col">
+
+                        <label for="contactLastName" class="form-label"></label>
+                        <input type="text" class="form-control" id="contactLastName" placeholder="Your last name">
+                        <img src="src/img/icons/person-ico.svg">
+                    </div>
+
+                </div>
+                <label for="contactEmail" class="form-label"></label>
+                <input type="email" class="form-control" id="contactEmail" placeholder="Your e-mail address">
+                <img src="src/img/icons/mail.svg">
+
+                    <textarea class="form-control" aria-label="With textarea" placeholder="Enter here your message"></textarea>
+                <img src="src/img/icons/message.svg">
+                <button type="submit" class="btn btn-primary">Send message</button>
+            </form>
+
+
             <input>
             <input>
             <input>

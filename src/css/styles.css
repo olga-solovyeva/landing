@@ -250,6 +250,8 @@ Hides the menu at `48em`, but modify this based on your app's needs.
     color: #1F0E93; }
   .title-green {
     color: #0E936E; }
+  .title-orange {
+    color: #F86B27; }
 
 .text {
   font-family: Heebo;
