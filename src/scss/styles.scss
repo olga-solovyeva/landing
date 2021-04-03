@@ -10,8 +10,53 @@
   color: #1F0E93;
 }
 
-.header__wrapper {
-  display: flex;
-  width: 100%;
+.about {
+
+  &__subtitle {
+
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 15px;
+
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #EC4F4F;
+
+  }
+
+  &__title {
+
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 62px;
+
+    text-align: center;
+    letter-spacing: 0.157949px;
+
+    color: #1F0E93;
+  }
+
+  &__text {
+
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+
+    text-align: center;
+    letter-spacing: 0.0676924px;
+
+    color: #B2B2CD;
+
+  }
+
 
 }
+
