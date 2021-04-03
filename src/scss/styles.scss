@@ -10,9 +10,8 @@
   color: #1F0E93;
 }
 
-.about {
 
-  &__subtitle {
+  .subtitle {
 
     font-family: Heebo;
     font-style: normal;
@@ -24,11 +23,18 @@
     letter-spacing: 1px;
     text-transform: uppercase;
 
-    color: #EC4F4F;
+    &-red {
+      color: #EC4F4F;
+    }
+
+    &-gray {
+      color: #A1A1A1;
+
+    }
 
   }
 
-  &__title {
+  .title {
 
     font-family: Heebo;
     font-style: normal;
@@ -39,10 +45,16 @@
     text-align: center;
     letter-spacing: 0.157949px;
 
-    color: #1F0E93;
+    &-navy {
+      color: #1F0E93;
+    }
+
+    &-green {
+      color: #0E936E;
+    }
   }
 
-  &__text {
+  .text {
 
     font-family: Heebo;
     font-style: normal;
@@ -53,10 +65,12 @@
     text-align: center;
     letter-spacing: 0.0676924px;
 
-    color: #B2B2CD;
+    &-gray {
+      color: #B2B2CD;
+    }
 
+    &-dark-gray {
+      color: #8D88A5;
+    }
   }
-
-
-}
 

@@ -30,38 +30,43 @@
     </header>
     <main class="container-fluid">
     <div class="row about">
-        <h6 class="about__subtitle">Check this out!</h6>
-        <h2 class="about__title">An awesome heading</h2>
-        <p class="about__text">Let us introduce you to our great product that will solve your problems
+        <h6 class="subtitle subtitle-red">Check this out!</h6>
+        <h2 class="title title-navy">An awesome heading</h2>
+        <p class="text text-gray">Let us introduce you to our great product that will solve your problems
             and make your life easier! Start your free trial today and see for yourself how easy it is.</p>
-        <div class="row subscribe">
-            <input class="col">
-            <button class="col">Get our product now!</button>
-        </div>
+        <form class="row g-3">
+            <div class="col-auto">
+                <label for="inputEmail" class="visually-hidden"></label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Enter here your e-mail address">
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-3"> Get our product now!</button>
+            </div>
+        </form>
         <div class="promo">
             <img class="img-fluid" src="src/img/example.svg" alt="">
         </div>
     </div>
     <div class="features">
         <div class="features__about">
-            <h6>Check this out!</h6>
-            <h2>Your brilliant features</h2>
-            <p>Here are the main features and benefits of our product,
+            <h6 class="subtitle subtitle-gray">Check this out!</h6>
+            <h2 class="title title-green">Your brilliant features</h2>
+            <p class="text text-dark-gray">Here are the main features and benefits of our product,
                 designed to give you the best possible experience.</p>
         </div>
-        <div class="features__gallery container">
+        <div class="features__gallery container-fluid">
             <div class="row>">
-                <img class="col">
-                <img class="col">
-                <img class="col">
-                <img class="col">
+                <img src="src/img/features__gallery/interior_1.jpg" alt="#" class="col">
+                <img src="src/img/features__gallery/interior_2.jpg" alt="#" class="col">
+                <img src="src/img/features__gallery/interior_3.jpg" alt="#" class="col">
+                <img src="src/img/features__gallery/interior_4.jpg" alt="#" class="col">
             </div>
 
         </div>
         <div class="features__cards">
             <div class="features__card">
                 <div class="card__img">
-                    <img src="#">
+                    <img src="src/img/oval-violet.svg" alt="#">
                 </div>
                 <h6>Violet feature</h6>
                 <p>Make your everyday life easier with the violet feature.
@@ -71,7 +76,7 @@
             </div>
             <div class="features__card">
                 <div class="card__img">
-                    <img src="#">
+                    <img src="src/img/oval-orange.svg" alt="#">
                 </div>
                 <h6>Orange feature</h6>
                 <p>Organize your work better with the orange feature. It will help you manage your tasks and schedule your meetings.
@@ -80,7 +85,7 @@
             </div>
             <div class="features__card">
                 <div class="card__img">
-                    <img src="#">
+                    <img src="src/img/triangle-red.svg" alt="#">
                 </div>
                 <h6>Red feature</h6>
                 <p>Save time and money thanks to the red feature! Instead of using many expensive tools, find everything you need in one place.
@@ -89,7 +94,7 @@
             </div>
             <div class="features__card">
                 <div class="card__img">
-                    <img src="#">
+                    <img src="src/img/oval-blue.svg" alt="#">
                 </div>
                 <h6>Blue feature</h6>
                 <p>The blue feature will help you manage your team, making them happier, less tired and more productive. No more complaints!
@@ -98,29 +103,40 @@
             </div>
         </div>
     </div>
-    <div class="feedback">
-        <div class="feedback__quote">
-            When I first heard about the Product, I wasn’t convinced. But my friends and coworkers all kept
-            talking about it. I’ve finally decided to join and couldn’t be happier! It’s extremely user-friendly and helps me manage my work better. Highly recommended!
-
-    </div>
-        <div class="feedback__auth">
-            <div class="feedback__name"> Cristian Newman </div>
-            <div class="feedback__post">
-                CEO of Company
+    <div class="feedback conteiner-fluid">
+        <div class="row">
+            <div class="col">
+                <img src="src/img/photo.jpg">
+                <div>
+                    <img src="src/img/feedback__oval.svg">
+                </div>
             </div>
-            <div class="socials">
-                <ul class="socials__list">
-                    <li class="socials__item">
-                        <a class="socials__link"></a>
-                    </li>
-                    <li class="socials__item">
-                        <a class="socials__link"></a>
-                    </li>
-                    <li class="socials__item">
-                        <a class="socials__link"></a>
-                    </li>
-                </ul>
+
+            <div class="col">
+                <p class="feedback__quote">
+                When I first heard about the Product, I wasn’t convinced. But my friends and coworkers all kept
+                talking about it. I’ve finally decided to join and couldn’t be happier! It’s extremely user-friendly and helps me manage my work better. Highly recommended!
+                </p>
+                <div class="feedback__auth">
+                    <div class="feedback__name"> Cristian Newman </div>
+                    <div class="feedback__post">
+                        CEO of Company
+                    </div>
+                    <div class="socials">
+                        <ul class="socials__list">
+                            <li class="socials__item">
+                                <a class="socials__link"></a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link"></a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
         </div>
     <div class="contact">
