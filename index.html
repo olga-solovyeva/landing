@@ -13,19 +13,19 @@
         <div class="col header__logo">
             <a class="">LP Template</a>
         </div>
-        <div class="col header__menu">
-            <ul class="row menu__list">
-                <li class="col menu__item">
-                    <a class="menu__link">Features</a>
-                </li>
-                <li class="col menu__item">
-                    <a class="menu__link">Testimonials</a>
-                </li>
-                <li class="col menu__item">
-                    <a class="menu__link">Contact</a>
-                </li>
-            </ul>
-        </div>
+            <div class="col header__menu">
+                <ul class="nav justify-content-end menu__list">
+                    <li class="nav-item menu__item">
+                        <a class="nav-link menu__link active" aria-current="page" href="#">Features</a>
+                    </li>
+                    <li class="nav-item menu__item">
+                        <a class="nav-link menu__link" href="#">Testimonials</a>
+                    </li>
+                    <li class="nav-item menu__item">
+                        <a class="nav-link menu__link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
     <main class="container-fluid">
@@ -64,79 +64,78 @@
 
         </div>
         <div class="features__cards">
-            <div class="features__card">
-                <div class="card__img">
-                    <img src="src/img/oval-violet.svg" alt="#">
-                </div>
-                <h6>Violet feature</h6>
-                <p>Make your everyday life easier with the violet feature.
+
+        <div class="card" style="width: 18rem;">
+            <img src="src/img/oval-violet.svg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Violet feature</h5>
+                <p class="card-text">Make your everyday life easier with the violet feature.
 
                     Do your job better and get more free time to spend with your family!</p>
-                <a>Check this out! </a>
-            </div>
-            <div class="features__card">
-                <div class="card__img">
-                    <img src="src/img/oval-orange.svg" alt="#">
-                </div>
-                <h6>Orange feature</h6>
-                <p>Organize your work better with the orange feature. It will help you manage your tasks and schedule your meetings.
-                </p>
-                <a>Check this out! </a>
-            </div>
-            <div class="features__card">
-                <div class="card__img">
-                    <img src="src/img/triangle-red.svg" alt="#">
-                </div>
-                <h6>Red feature</h6>
-                <p>Save time and money thanks to the red feature! Instead of using many expensive tools, find everything you need in one place.
-                </p>
-                <a>Check this out! </a>
-            </div>
-            <div class="features__card">
-                <div class="card__img">
-                    <img src="src/img/oval-blue.svg" alt="#">
-                </div>
-                <h6>Blue feature</h6>
-                <p>The blue feature will help you manage your team, making them happier, less tired and more productive. No more complaints!
-                </p>
-                <a>Check this out! </a>
+                <a href="#" class="card-link"">Check this out!</a>
             </div>
         </div>
-    </div>
-    <div class="feedback conteiner-fluid">
-        <div class="row">
-            <div class="col">
-                <img src="src/img/photo.jpg">
-                <div>
-                    <img src="src/img/feedback__oval.svg">
+            <div class="card" style="width: 18rem;">
+                <img src="src/img/oval-orange.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Orange feature</h5>
+                    <p class="card-text">Organize your work better with the orange feature. It will help you manage your tasks and schedule your meetings.
+                    </p>
+                    <a href="#" class="card-link"">Check this out!</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="src/img/src/img/triangle-red.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Red feature</h5>
+                    <p class="card-text">Save time and money thanks to the red feature! Instead of using many expensive tools, find everything you need in one place.
+                    </p>
+                    <a href="#" class="card-link"">Check this out!</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="src/img/oval-blue.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Blue feature</h5>
+                    <p class="card-text">The blue feature will help you manage your team, making them happier, less tired and more productive. No more complaints!
+                    </p>
+                    <a href="#" class="card-link"">Check this out!</a>
                 </div>
             </div>
 
-            <div class="col">
-                <p class="feedback__quote">
-                When I first heard about the Product, I wasn’t convinced. But my friends and coworkers all kept
-                talking about it. I’ve finally decided to join and couldn’t be happier! It’s extremely user-friendly and helps me manage my work better. Highly recommended!
-                </p>
-                <div class="feedback__auth">
-                    <div class="feedback__name"> Cristian Newman </div>
-                    <div class="feedback__post">
-                        CEO of Company
-                    </div>
-                    <div class="socials">
-                        <ul class="socials__list">
-                            <li class="socials__item">
-                                <a class="socials__link"></a>
-                            </li>
-                            <li class="socials__item">
-                                <a class="socials__link"></a>
-                            </li>
-                            <li class="socials__item">
-                                <a class="socials__link"></a>
-                            </li>
-                        </ul>
+        </div>
+    </div>
+
+    <div class="testimonials container-fluid">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <p class="card-text testimonials__quote text">
+                            When I first heard about the Product, I wasn’t convinced. But my friends and coworkers all kept
+                            talking about it. I’ve finally decided to join and couldn’t be happier! It’s extremely user-friendly and helps me manage my work better. Highly recommended!
+                        </p>
+                        <h5 class="card-title testimonials__name title-sm">Cristian Newman</h5>
+                        <h6 class="card-subtitle subtitle">CEO of Company</h6>
+                        <div class="socials">
+                            <ul class="socials__list">
+                                <li class="socials__item">
+                                    <a class="socials__link card-link"></a>
+                                </li>
+                                <li class="socials__item">
+                                    <a class="socials__link card-link"></a>
+                                </li>
+                                <li class="socials__item">
+                                    <a class="socials__link card-link"></a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-
+                <div class="col-md-4">
+                    <img src="src/img/photo.jpg" alt="...">
+                    <img src="src/img/testimonials__oval.svg">
+                </div>
             </div>
         </div>
     <div class="contact">
@@ -170,24 +169,28 @@
         </div>
     </div>
     </main>
-<footer>
- <h4>Contact us</h4>
-    <div class="">
-        <p>e-mail</p>
-        <a>your@address.com</a>
+<footer class="container-fluid">
+ <h5 class="title-sm">Contact us</h5>
+    <div class="row">
+        <div class="col">
+            <h6 class="subtitle">e-mail</h6>
+            <p class="text">your@address.com</p>
+        </div>
+        <div class="col">
+            <h6 class="subtitle"> Phone number</h6>
+            <p class="text">+ 48 600 000 000</p>
+        </div>
+        <div class="col">
+            <h6 class="subtitle">Office</h6>
+            <p class="text">Place This 1,
+                00-844 Warsaw</p>
+        </div>
+
     </div>
-    <div class="">
-        <p> Phone number</p>
-        <p>+ 48 600 000 000</p>
-    </div>
-    <div class="">
-        <p>Office</p>
-        <p>Place This 1,
-            00-844 Warsaw</p>
-    </div>
-    <div>
-        <div class="footer__logo">LP Template</div>
-        <div class="copyright">© Copyright 2018 YourProduct
+    <div class="row">
+        <div class="col footer__logo text">LP Template
+        </div>
+        <div class="col footer__copyright">© Copyright 2018 YourProduct
             All rights reserved.</div>
     </div>
 </footer>
