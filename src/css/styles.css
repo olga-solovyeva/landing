@@ -242,3 +242,6 @@ input::placeholder {
   color: #A09BB6;
   font-weight: 300;
   font-size: 14px; }
+
+.intro__input {
+  max-width: 320px; }
