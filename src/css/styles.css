@@ -213,6 +213,12 @@ a {
     color: #8D88A5; }
 
 input {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.0538462px;
+  color: #A09BB6;
   background: #F2F0F6;
   box-shadow: inset 0px 0px 1px rgba(46, 32, 139, 0.23913);
   border-radius: 4px; }
