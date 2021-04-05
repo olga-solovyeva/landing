@@ -149,19 +149,30 @@
   src: local("HelveticaNeueCyr-Thin"), url("../fonts/HelveticaNeueCyr-Thin.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Thin.woff") format("woff"); }
 
 body {
-  font-family: "Heebo", "Roboto", sans-serif; }
+  font-family: Heebo, "Roboto Light", sans-serif; }
+
+a {
+  text-decoration: none; }
 
 .header__logo {
-  font-family: sans-serif;
+  font-family: HelveticaNeueCyr;
+  font-weight: bold;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
   letter-spacing: 0.0676924px;
   color: #1F0E93; }
 
+.menu__item {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.060171px;
+  color: #B2B2CD; }
+
 .subtitle {
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 10px;
   line-height: 15px;
   text-align: center;
