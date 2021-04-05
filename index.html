@@ -4,102 +4,121 @@
     <title>Landing</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="src/css/styles.css">
 </head>
 <body>
-    <header class="container header__container">
-        <div class="row">
-        <div class="col justify-content-start">
+<header class="container header__container">
+    <div class="row align-items-center">
+        <div class="col">
             <a class="header__logo">LP Template</a>
         </div>
-            <div class="col header__menu">
-                <ul class="nav justify-content-end menu__list">
-                    <li class="nav-item menu__item">
-                        <a class="nav-link menu__link active" aria-current="page" href="#">Features</a>
-                    </li>
-                    <li class="nav-item menu__item">
-                        <a class="nav-link menu__link" href="#">Testimonials</a>
-                    </li>
-                    <li class="nav-item menu__item">
-                        <a class="nav-link menu__link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <main class="container-fluid">
-    <div class="container-fluid">
-        <h6 class="subtitle subtitle-red">Check this out!</h6>
-        <h2 class="title title-navy">An awesome heading</h2>
-        <p class="text text-gray col-l-2">Let us introduce you to our great product that will solve your problems
-            and make your life easier! Start your free trial today and see for yourself how easy it is.</p>
-        <form class="row">
-            <div class="col intro__input">
-                <label for="inputEmail" class="visually-hidden"></label>
-                <input type="email" class="form-control" id="inputEmail" placeholder="Enter here your e-mail address">
-            </div>
-            <div class="col">
-                <button type="submit" class="btn btn-primary mb-3"> Get our product now!</button>
-            </div>
-        </form>
-        <div class="promo">
-            <img class="img-fluid" src="src/img/browser.jpg" alt="">
+        <div class="col header__menu">
+            <ul class="nav menu__list justify-content-end">
+                <li class="nav-item menu__item">
+                    <a class="nav-link menu__link active" aria-current="page" href="#">Features</a>
+                </li>
+                <li class="nav-item menu__item">
+                    <a class="nav-link menu__link" href="#">Testimonials</a>
+                </li>
+                <li class="nav-item menu__item">
+                    <a class="nav-link menu__link" href="#">Contact</a>
+                </li>
+            </ul>
         </div>
     </div>
-    <div class="features">
-        <div class="features__about">
-            <h6 class="subtitle subtitle-gray">Check this out!</h6>
-            <h2 class="title title-green">Your brilliant features</h2>
-            <p class="text text-dark-gray">Here are the main features and benefits of our product,
-                designed to give you the best possible experience.</p>
-        </div>
-        <div class="features__gallery container-fluid">
-            <div class="row>">
-                <img src="src/img/features__gallery/interior_1.jpg" alt="#" class="col">
-                <img src="src/img/features__gallery/interior_2.jpg" alt="#" class="col">
-                <img src="src/img/features__gallery/interior_3.jpg" alt="#" class="col">
-                <img src="src/img/features__gallery/interior_4.jpg" alt="#" class="col">
-            </div>
-
-        </div>
-        <div class="features__cards">
-
-        <div class="card" style="width: 18rem;">
-            <img src="src/img/oval-violet.svg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Violet feature</h5>
-                <p class="card-text">Make your everyday life easier with the violet feature.
-
-                    Do your job better and get more free time to spend with your family!</p>
-                <a href="#" class="card-link">Check this out!</a>
-            </div>
-        </div>
-            <div class="card" style="width: 18rem;">
-                <img src="src/img/oval-orange.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Orange feature</h5>
-                    <p class="card-text">Organize your work better with the orange feature. It will help you manage your tasks and schedule your meetings.
-                    </p>
-                    <a href="#" class="card-link">Check this out!</a>
+</header>
+<main class="container-fluid">
+    <div class="container-fluid intro__wrapper">
+        <h6 class="subtitle subtitle-red">Check this out!</h6>
+        <h2 class="title title-navy">An awesome heading</h2>
+        <p class="text text-gray intro__text">Let us introduce you to our great product that will solve your problems
+            and make your life easier! Start your free trial today and see for yourself how easy it is.</p>
+        <form class="row">
+            <div class="col d-flex justify-content-end">
+                <div class="intro__input-wrapper">
+                    <label for="inputEmail" class="visually-hidden"></label>
+                    <input type="email" class="form-control intro__input" id="inputEmail" placeholder="Enter here your e-mail address">
+                    <span class="intro__icon">
+                        <img src="src/img/icons/mail.svg" alt="">
+                    </span>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="src/img/triangle-red.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Red feature</h5>
-                    <p class="card-text">Save time and money thanks to the red feature! Instead of using many expensive tools, find everything you need in one place.
-                    </p>
-                    <a href="#" class="card-link">Check this out!</a>
+            <div class="col d-flex justify-content-start">
+                <button type="submit" class="btn intro__btn"> Get our product now!</button>
+            </div>
+        </form>
+        <div class="promo d-flex justify-content-center align-items-start">
+            <img src="src/img/browser.jpg" alt="">
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="col d-flex justify-content-end">
+                    <div class="features__about">
+                        <h6 class="subtitle subtitle-gray">Check this out!</h6>
+                        <h2 class="title title-green">Your brilliant features</h2>
+                        <p class="text text-dark-gray">Here are the main features and benefits of our product,
+                            designed to give you the best possible experience.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="features__gallery">
+                        <div class="row>">
+                            <img src="src/img/features__gallery/interior_1.jpg" alt="#" class="col">
+                            <img src="src/img/features__gallery/interior_2.jpg" alt="#" class="col">
+                            <img src="src/img/features__gallery/interior_3.jpg" alt="#" class="col">
+                            <img src="src/img/features__gallery/interior_4.jpg" alt="#" class="col">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="src/img/oval-blue.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Blue feature</h5>
-                    <p class="card-text">The blue feature will help you manage your team, making them happier, less tired and more productive. No more complaints!
-                    </p>
-                    <a href="#" class="card-link">Check this out!</a>
+            <div class="col">
+                <div class="features__cards">
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="src/img/oval-violet.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Violet feature</h5>
+                            <p class="card-text">Make your everyday life easier with the violet feature.
+
+                                Do your job better and get more free time to spend with your family!</p>
+                            <a href="#" class="card-link">Check this out!</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="src/img/oval-orange.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Orange feature</h5>
+                            <p class="card-text">Organize your work better with the orange feature. It will help you manage your
+                                tasks and schedule your meetings.
+                            </p>
+                            <a href="#" class="card-link">Check this out!</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="src/img/triangle-red.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Red feature</h5>
+                            <p class="card-text">Save time and money thanks to the red feature! Instead of using many expensive
+                                tools, find everything you need in one place.
+                            </p>
+                            <a href="#" class="card-link">Check this out!</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="src/img/oval-blue.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Blue feature</h5>
+                            <p class="card-text">The blue feature will help you manage your team, making them happier, less
+                                tired and more productive. No more complaints!
+                            </p>
+                            <a href="#" class="card-link">Check this out!</a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
@@ -112,8 +131,10 @@
                 <div class="col-md-8">
                     <div class="card-body">
                         <p class="card-text testimonials__quote text">
-                            When I first heard about the Product, I wasn’t convinced. But my friends and coworkers all kept
-                            talking about it. I’ve finally decided to join and couldn’t be happier! It’s extremely user-friendly and helps me manage my work better. Highly recommended!
+                            When I first heard about the Product, I wasn’t convinced. But my friends and coworkers all
+                            kept
+                            talking about it. I’ve finally decided to join and couldn’t be happier! It’s extremely
+                            user-friendly and helps me manage my work better. Highly recommended!
                         </p>
                         <h5 class="card-title testimonials__name title-sm">Cristian Newman</h5>
                         <h6 class="card-subtitle subtitle">CEO of Company</h6>
@@ -138,39 +159,44 @@
                 </div>
             </div>
         </div>
-    <div class="contact">
-        <h6 class="subtitle subtitle-gray"> Do You Have Any Questions?</h6>
-        <h2 class="title title-orange"> Get in touch</h2>
-        <p class="text text-dark-gray">Want to join us? Send us a word and we’ll get back to you with a personalized offer!</p>
-        <div class="contact__form">
-            <form>
-                <div class="mb-3 row">
-                    <div class="col">
-                        <label for="contactFirstName" class="form-label"></label>
-                        <input type="text" class="form-control landing__input" id="contactFirstName" placeholder="Your first name">
-                        <img src="src/img/icons/person-ico.svg">
+        <div class="contact">
+            <h6 class="subtitle subtitle-gray"> Do You Have Any Questions?</h6>
+            <h2 class="title title-orange"> Get in touch</h2>
+            <p class="text text-dark-gray">Want to join us? Send us a word and we’ll get back to you with a personalized
+                offer!</p>
+            <div class="contact__form">
+                <form>
+                    <div class="mb-3 row">
+                        <div class="col">
+                            <label for="contactFirstName" class="form-label"></label>
+                            <input type="text" class="form-control landing__input" id="contactFirstName"
+                                   placeholder="Your first name">
+                            <img src="src/img/icons/person-ico.svg">
+                        </div>
+                        <div class="col">
+
+                            <label for="contactLastName" class="form-label"></label>
+                            <input type="text" class="form-control landing__input" id="contactLastName"
+                                   placeholder="Your last name">
+                            <img src="src/img/icons/person-ico.svg">
+                        </div>
+
                     </div>
-                    <div class="col">
+                    <label for="contactEmail" class="form-label"></label>
+                    <input type="email" class="form-control landing__input" id="contactEmail"
+                           placeholder="Your e-mail address">
+                    <img src="src/img/icons/mail.svg">
 
-                        <label for="contactLastName" class="form-label"></label>
-                        <input type="text" class="form-control landing__input" id="contactLastName" placeholder="Your last name">
-                        <img src="src/img/icons/person-ico.svg">
-                    </div>
-
-                </div>
-                <label for="contactEmail" class="form-label"></label>
-                <input type="email" class="form-control landing__input" id="contactEmail" placeholder="Your e-mail address">
-                <img src="src/img/icons/mail.svg">
-
-                    <textarea class="form-control landing__input" aria-label="With textarea" placeholder="Enter here your message"></textarea>
-                <img src="src/img/icons/message.svg">
-                <button type="submit" class="btn btn-primary">Send message</button>
-            </form>
+                    <textarea class="form-control landing__input" aria-label="With textarea"
+                              placeholder="Enter here your message"></textarea>
+                    <img src="src/img/icons/message.svg">
+                    <button type="submit" class="btn btn-primary">Send message</button>
+                </form>
+            </div>
         </div>
-    </div>
-    </main>
+</main>
 <footer class="container-fluid">
- <h5 class="title-sm">Contact us</h5>
+    <h5 class="title-sm">Contact us</h5>
     <div class="row">
         <div class="col">
             <h6 class="subtitle">e-mail</h6>
@@ -191,7 +217,8 @@
         <div class="col footer__logo text">LP Template
         </div>
         <div class="col footer__copyright">© Copyright 2018 YourProduct
-            All rights reserved.</div>
+            All rights reserved.
+        </div>
     </div>
 </footer>
 <script src="src/js/ui.js"></script>

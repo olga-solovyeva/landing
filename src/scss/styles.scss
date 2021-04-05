@@ -8,6 +8,9 @@ a {
   text-decoration: none;
 }
 
+.header__container {
+  padding: 18px 0;
+}
 .header__logo {
   font-family: HelveticaNeueCyr;
   font-weight: bold;
@@ -15,6 +18,8 @@ a {
   line-height: 21px;
   text-align: center;
   letter-spacing: 0.0676924px;
+
+  cursor: auto;
 
   color: #1F0E93;
 }
@@ -25,6 +30,7 @@ a {
   font-size: 16px;
   line-height: 23px;
 
+  padding: 0 20px;
   text-align: center;
   letter-spacing: 0.060171px;
 
@@ -32,8 +38,97 @@ a {
 
 }
 
+.intro {
+
+  &__wrapper {
+    padding: 96px 0 92px;
+  }
+
+  &__text {
+    max-width: 748px;
+    margin: 0 auto 40px;
+
+  }
+
+    &__input-wrapper {
+      max-width: 320px;
+      width: 320px;
+      position: relative;
+      height: 100%;
+      display: flex;
+    }
+
+    &__input {
+      padding: 0 32px;
+
+    }
+
+  &__icon {
+      position: absolute;
+
+    width: 20px;
+    height: 16px;
+    right: 32px;
+    top: 19px;
+
+    img {
+      vertical-align: 0;
+      width: 20px;
+      height: 16px;
+    }
 
 
+  }
+
+
+    &__btn {
+      background: #FFEEEE;
+      border-radius: 4px;
+
+      font-family: Heebo;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+
+      text-align: center;
+      letter-spacing: 0.0526496px;
+
+      color: #EC4F4F;
+
+      padding: 17px 48px;
+    }
+
+  }
+
+.promo {
+  margin-top: 92px;
+
+  .img {
+    width: 1200px;
+    height: 100%;
+  }
+}
+
+.features {
+
+  &__about {
+    width: 370px;
+
+    .title, .text {
+      text-align: left;
+    }
+
+    .title {
+      margin-bottom: 20px;
+    }
+
+    .text {
+      margin-bottom: 110px;
+    }
+  }
+
+}
   .subtitle {
 
     font-weight: 700;
@@ -136,8 +231,6 @@ input::-ms-input-placeholder {
 input::placeholder {
   color: #A09BB6;
   font-weight: 300;
-  font-size: 14px; }
+  font-size: 14px;
 
-.intro__input {
-  max-width: 320px;
 }
