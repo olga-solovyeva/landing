@@ -112,7 +112,7 @@ a {
 
 .features {
 
-  &__about {
+  &__main {
     width: 370px;
 
     .title, .text {
@@ -127,6 +127,13 @@ a {
       margin-bottom: 110px;
     }
   }
+
+  &__photo {
+    width: 280px;
+    height: 280px;
+
+  }
+
 
 }
   .subtitle {

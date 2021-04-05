@@ -223,14 +223,18 @@ a {
     width: 1200px;
     height: 100%; }
 
-.features__about {
+.features__main {
   width: 370px; }
-  .features__about .title, .features__about .text {
+  .features__main .title, .features__main .text {
     text-align: left; }
-  .features__about .title {
+  .features__main .title {
     margin-bottom: 20px; }
-  .features__about .text {
+  .features__main .text {
     margin-bottom: 110px; }
+
+.features__photo {
+  width: 280px;
+  height: 280px; }
 
 .subtitle {
   font-weight: 700;

@@ -10,11 +10,11 @@
 </head>
 <body>
 <header class="container header__container">
-    <div class="row align-items-center">
-        <div class="col">
+    <div class="row align-items-center justify-content-between">
+        <div class="col-md-auto">
             <a class="header__logo">LP Template</a>
         </div>
-        <div class="col header__menu">
+        <div class="col-md-auto header__menu">
             <ul class="nav menu__list justify-content-end">
                 <li class="nav-item menu__item">
                     <a class="nav-link menu__link active" aria-current="page" href="#">Features</a>
@@ -35,8 +35,8 @@
         <h2 class="title title-navy">An awesome heading</h2>
         <p class="text text-gray intro__text">Let us introduce you to our great product that will solve your problems
             and make your life easier! Start your free trial today and see for yourself how easy it is.</p>
-        <form class="row">
-            <div class="col d-flex justify-content-end">
+        <form class="row justify-content-center">
+            <div class="col-md-auto">
                 <div class="intro__input-wrapper">
                     <label for="inputEmail" class="visually-hidden"></label>
                     <input type="email" class="form-control intro__input" id="inputEmail" placeholder="Enter here your e-mail address">
@@ -45,37 +45,59 @@
                     </span>
                 </div>
             </div>
-            <div class="col d-flex justify-content-start">
+            <div class="col-md-auto">
                 <button type="submit" class="btn intro__btn"> Get our product now!</button>
             </div>
         </form>
-        <div class="promo d-flex justify-content-center align-items-start">
+        <div class="promo col-md-auto">
             <img src="src/img/browser.jpg" alt="">
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid features p-0">
         <div class="row">
+<!--            <div class="col">-->
+<!--                <div class="col d-flex justify-content-end">-->
+<!--                    <div class="features__about">-->
+<!--                        <h6 class="subtitle subtitle-gray">Check this out!</h6>-->
+<!--                        <h2 class="title title-green">Your brilliant features</h2>-->
+<!--                        <p class="text text-dark-gray">Here are the main features and benefits of our product,-->
+<!--                            designed to give you the best possible experience.</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col">-->
+<!--                    <div class="features__gallery">-->
+<!--                        <div class="row>">-->
+<!--                            <img src="src/img/features__gallery/interior_1.jpg" alt="#" class="col">-->
+<!--                            <img src="src/img/features__gallery/interior_2.jpg" alt="#" class="col">-->
+<!--                            <img src="src/img/features__gallery/interior_3.jpg" alt="#" class="col">-->
+<!--                            <img src="src/img/features__gallery/interior_4.jpg" alt="#" class="col">-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
             <div class="col">
-                <div class="col d-flex justify-content-end">
-                    <div class="features__about">
+                <div class="row justify-content-end">
+                    <div class="col-md-auto features__main">
                         <h6 class="subtitle subtitle-gray">Check this out!</h6>
                         <h2 class="title title-green">Your brilliant features</h2>
                         <p class="text text-dark-gray">Here are the main features and benefits of our product,
                             designed to give you the best possible experience.</p>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="features__gallery">
-                        <div class="row>">
-                            <img src="src/img/features__gallery/interior_1.jpg" alt="#" class="col">
-                            <img src="src/img/features__gallery/interior_2.jpg" alt="#" class="col">
-                            <img src="src/img/features__gallery/interior_3.jpg" alt="#" class="col">
-                            <img src="src/img/features__gallery/interior_4.jpg" alt="#" class="col">
-                        </div>
+                    <div class="col-md-auto order-md-first me-md-auto align-self-md-end p-0">
+                        <img src="src/img/features__gallery/interior_1.jpg" alt="#" class="features__photo">
+                    </div>
+                    <div class="col-md-auto ps-md-2 pe-0">
+                        <img src="src/img/features__gallery/interior_2.jpg" alt="#" class="features__photo">
+                    </div>
+                    <div class="col-md-auto pe-1 ps-0">
+                        <img src="src/img/features__gallery/interior_3.jpg" alt="#" class="features__photo">
+                    </div>
+                    <div class="col-md-auto pe-1">
+                        <img src="src/img/features__gallery/interior_4.jpg" alt="#" class="features__photo">
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col p-md-0">
                 <div class="features__cards">
 
                     <div class="card" style="width: 18rem;">
