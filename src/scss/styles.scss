@@ -120,9 +120,21 @@ input {
 }
 input::-moz-placeholder {
   color: #A09BB6;
+  font-weight: 300;
+  font-size: 14px;
 }
-input::-webkit-input-placeholder { color: #A09BB6; }
-input:-ms-input-placeholder { color: #A09BB6; }
-input::-ms-input-placeholder { color: #A09BB6; }
-input::placeholder { color: #A09BB6; }
+input::-webkit-input-placeholder {
+  color: #A09BB6;
+  font-weight: 300;
+  font-size: 14px; }
+
+input::-ms-input-placeholder {
+  color: #A09BB6;
+  font-weight: 300;
+  font-size: 14px;
+}
+input::placeholder {
+  color: #A09BB6;
+  font-weight: 300;
+  font-size: 14px; }
 
