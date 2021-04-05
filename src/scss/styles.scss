@@ -112,8 +112,8 @@ input {
 input::-moz-placeholder {
   color: #A09BB6;
 }
-input[type="search"]::-webkit-input-placeholder { color: #A09BB6; }
-input[type="search"]:-ms-input-placeholder { color: #A09BB6; }
-input[type="search"]::-ms-input-placeholder { color: #A09BB6; }
-input[type="search"]::placeholder { color: #A09BB6; }
+input::-webkit-input-placeholder { color: #A09BB6; }
+input:-ms-input-placeholder { color: #A09BB6; }
+input::-ms-input-placeholder { color: #A09BB6; }
+input::placeholder { color: #A09BB6; }
 

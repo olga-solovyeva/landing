@@ -220,14 +220,14 @@ input {
 input::-moz-placeholder {
   color: #A09BB6; }
 
-input[type="search"]::-webkit-input-placeholder {
+input::-webkit-input-placeholder {
   color: #A09BB6; }
 
-input[type="search"]:-ms-input-placeholder {
+input:-ms-input-placeholder {
   color: #A09BB6; }
 
-input[type="search"]::-ms-input-placeholder {
+input::-ms-input-placeholder {
   color: #A09BB6; }
 
-input[type="search"]::placeholder {
+input::placeholder {
   color: #A09BB6; }
