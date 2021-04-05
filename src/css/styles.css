@@ -14,19 +14,19 @@
   font-family: 'Heebo';
   font-weight: 500;
   font-style: normal;
-  src: local("Heebo-Medium"), url("../fonts/Heebo-Medium.woff2") format("woff2"), url("../fonts/Heebo-Medium.woff") format("woff"); }
+  src: local("Heebo-Medium"), url("../fonts/Heebo/Heebo-Medium.woff2") format("woff2"), url("../fonts/Heebo-Medium.woff") format("woff"); }
 
 @font-face {
   font-family: 'Heebo';
   font-weight: 800;
   font-style: normal;
-  src: local("Heebo-ExtraBold"), url("../fonts/Heebo-ExtraBold.woff2") format("woff2"), url("../fonts/Heebo-ExtraBold.woff") format("woff"); }
+  src: local("Heebo-ExtraBold"), url("../fonts/Heebo/Heebo-ExtraBold.woff2") format("woff2"), url("../fonts/Heebo-ExtraBold.woff") format("woff"); }
 
 @font-face {
   font-family: 'Heebo';
   font-weight: 300;
   font-style: normal;
-  src: local("Heebo-Light"), url("../fonts/Heebo-Light.woff2") format("woff2"), url("../fonts/Heebo-Light.woff") format("woff"); }
+  src: local("Heebo-Light"), url("../fonts/Heebo/Heebo-Light.woff2") format("woff2"), url("../fonts/Heebo-Light.woff") format("woff"); }
 
 @font-face {
   font-family: 'Heebo';
