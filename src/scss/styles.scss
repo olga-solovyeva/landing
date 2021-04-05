@@ -105,6 +105,10 @@ a {
   }
 
 input {
+  background: #F2F0F6;
+  box-shadow: inset 0px 0px 1px rgba(46, 32, 139, 0.23913);
+  border-radius: 4px;
+
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -113,10 +117,6 @@ input {
   letter-spacing: 0.0538462px;
 
   color: #A09BB6;
-
-  background: #F2F0F6;
-  box-shadow: inset 0px 0px 1px rgba(46, 32, 139, 0.23913);
-  border-radius: 4px;
 }
 input::-moz-placeholder {
   color: #A09BB6;
