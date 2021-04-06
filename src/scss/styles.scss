@@ -112,6 +112,10 @@ a {
 
 .features {
 
+  &-row {
+    margin-right: 100px;
+  }
+
   &__main {
     width: 370px;
 
@@ -132,6 +136,82 @@ a {
     width: 280px;
     height: 280px;
 
+
+  }
+
+  &__card {
+    max-width: 253px;
+    border: none;
+    &-img {
+      width: 40px;
+      &-md {
+        width: 80px;
+      }
+    }
+
+    &-title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 26px;
+      letter-spacing: 0.0676924px;
+
+      &-violet {
+        color: #3535C7;
+      }
+
+      &-orange {
+        color: #F86B27;
+
+      }
+
+      &-red {
+        color: #D23244;
+      }
+
+      &-blue {
+        color: #2B85D7;
+
+      }
+    }
+
+    &-text {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 28px;
+
+      color: #8D88A5;
+    }
+
+    &-link {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+
+      letter-spacing: 0.0526496px;
+      text-decoration-line: underline;
+
+      &-violet {
+        color: #1F0E93;
+
+      }
+
+      &-orange {
+        color: #F86B27;
+      }
+
+      &-red {
+        color: #D23244;
+      }
+
+      &-blue {
+        color: #2B85D7;
+
+      }
+
+    }
   }
 
 
@@ -219,6 +299,7 @@ a {
   letter-spacing: 0.0538462px;
 
   color: #A09BB6;
+
 }
 input::-moz-placeholder {
   color: #A09BB6;
