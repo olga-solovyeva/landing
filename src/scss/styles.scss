@@ -112,6 +112,8 @@ a {
 
 .features {
 
+  background-image: url("");
+
   &-row {
     margin-right: 100px;
   }
@@ -140,13 +142,22 @@ a {
   }
 
   &__card {
-    max-width: 253px;
     border: none;
+    max-width: 253px;
+    margin-right: 50px;
+
     &-img {
-      width: 40px;
       &-md {
-        width: 80px;
+        -o-transform: scale(2);
+        -ms-transform: scale(2);
+        -moz-transform: scale(2);
+        -webkit-transform: scale(2);
+        transform: scale(2);
       }
+    }
+
+    &-body {
+      padding-top: 32px;
     }
 
     &-title {
@@ -155,6 +166,8 @@ a {
       font-size: 18px;
       line-height: 26px;
       letter-spacing: 0.0676924px;
+
+      margin-bottom: 25px;
 
       &-violet {
         color: #3535C7;
@@ -180,6 +193,8 @@ a {
       font-weight: normal;
       font-size: 14px;
       line-height: 28px;
+
+      margin-bottom: 25px;
 
       color: #8D88A5;
     }
