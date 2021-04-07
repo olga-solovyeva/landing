@@ -59,7 +59,7 @@ a {
     }
 
     &__input {
-      padding: 0 32px;
+      padding: 0 70px 0 32px;
 
     }
 
@@ -419,6 +419,57 @@ a {
     }
   }
 
+  .contact {
+
+    &__wrapper {
+      margin-top: 60px;
+      max-width: 588px;
+      margin-left: 60px;
+
+      .subtitle,.title,.text {
+        text-align: left;
+      }
+    }
+
+    &__icon {
+      position: absolute;
+      right: 34px;
+      top: 19px;
+
+      &-person {
+        width: 12px;
+        height: 16px;
+      }
+
+      &-mail {
+        width: 20px;
+        height: 16px;
+      }
+
+      &-message {
+        position: absolute;
+        width: 20px;
+        height: 16px;
+      }
+
+      img {
+        vertical-align: 0;
+      }
+    }
+
+    &__input-wrapper {
+      position: relative;
+      margin: 16px 0;
+
+    }
+
+    &__input {
+      padding: 16px 50px 16px 32px;
+    }
+
+
+  }
+
 .form-control {
   background: #F2F0F6;
   box-shadow: inset 0px 0px 1px rgba(46, 32, 139, 0.23913);
@@ -454,4 +505,10 @@ input::placeholder {
   font-weight: 300;
   font-size: 14px;
 
+}
+
+textarea::placeholder {
+  color: #A09BB6;
+  font-weight: 300;
+  font-size: 14px;
 }

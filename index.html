@@ -178,34 +178,34 @@
                 <div class="row justify-content-end align-items-center">
                     <div class="col-md-auto">
                         <div class="testimonials__card">
-                                <p class="text-dark-gray testimonials__text text">
-                                    When I first heard about the Product, I wasn’t convinced. But my friends and coworkers all
-                                    kept
-                                    talking about it. I’ve finally decided to join and couldn’t be happier! It’s extremely
-                                    user-friendly and helps me manage my work better. Highly recommended!
-                                </p>
-                                <h5 class="testimonials__name">Cristian Newman</h5>
-                                <h6 class="testimonials__subtitle subtitle subtitle-orange">CEO of Company</h6>
-                                <div class="socials">
-                                    <ul class="socials__list row p-0 m-0">
-                                        <li class="socials__item col-auto">
-                                            <a class="socials__link"><img src="src/img/icons/world.svg"></a>
-                                        </li>
-                                        <li class="socials__item col-auto">
-                                            <a class="socials__link">
-                                                <img src="src/img/icons/twitter-logo-silhouette.svg"> </a>
-                                        </li>
-                                        <li class="socials__item col-auto">
-                                            <a class="socials__link"><img src="src/img/icons/linkedin-logo.svg"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+                            <p class="text-dark-gray testimonials__text text">
+                                When I first heard about the Product, I wasn’t convinced. But my friends and coworkers
+                                all
+                                kept
+                                talking about it. I’ve finally decided to join and couldn’t be happier! It’s extremely
+                                user-friendly and helps me manage my work better. Highly recommended!
+                            </p>
+                            <h5 class="testimonials__name">Cristian Newman</h5>
+                            <h6 class="testimonials__subtitle subtitle subtitle-orange">CEO of Company</h6>
+                            <div class="socials">
+                                <ul class="socials__list row p-0 m-0">
+                                    <li class="socials__item col-auto">
+                                        <a class="socials__link"><img src="src/img/icons/world.svg"></a>
+                                    </li>
+                                    <li class="socials__item col-auto">
+                                        <a class="socials__link">
+                                            <img src="src/img/icons/twitter-logo-silhouette.svg"> </a>
+                                    </li>
+                                    <li class="socials__item col-auto">
+                                        <a class="socials__link"><img src="src/img/icons/linkedin-logo.svg"></a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
 
                 </div>
             </div>
-
 
 
             <div class="col-6">
@@ -216,41 +216,58 @@
                 </div>
             </div>
         </div>
-        <div class="contact">
-            <h6 class="subtitle subtitle-gray"> Do You Have Any Questions?</h6>
-            <h2 class="title title-orange"> Get in touch</h2>
-            <p class="text text-dark-gray">Want to join us? Send us a word and we’ll get back to you with a personalized
-                offer!</p>
-            <div class="contact__form">
-                <form>
-                    <div class="mb-3 row">
-                        <div class="col">
-                            <label for="contactFirstName" class="form-label"></label>
-                            <input type="text" class="form-control landing__input" id="contactFirstName"
-                                   placeholder="Your first name">
-                            <img src="src/img/icons/person-ico.svg">
-                        </div>
-                        <div class="col">
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5"></div>
+            <div class="col contact__wrapper p-0">
+                    <h6 class="subtitle subtitle-gray"> Do You Have Any Questions?</h6>
+                    <h2 class="title title-orange mb-3"> Get in touch</h2>
+                    <p class="text text-dark-gray">Want to join us? Send us a word and we’ll get back to you with a
+                        personalized
+                        offer!</p>
 
-                            <label for="contactLastName" class="form-label"></label>
-                            <input type="text" class="form-control landing__input" id="contactLastName"
-                                   placeholder="Your last name">
-                            <img src="src/img/icons/person-ico.svg">
-                        </div>
+                        <form>
+                            <div class="row">
+                                <div class="col-6 contact__input-wrapper">
+                                        <label for="contactFirstName" class="form-label"></label>
+                                        <input type="text" class="form-control contact__input" id="contactFirstName"
+                                               placeholder="Your first name">
+                                        <span class="contact__icon contact__icon-person">
+                                        <img src="src/img/icons/person-ico.svg" alt="">
+                                    </span>
+                                </div>
+                                <div class="col-6 contact__input-wrapper">
+                                        <label for="contactLastName" class="form-label"></label>
+                                        <input type="text" class="form-control contact__input" id="contactLastName"
+                                               placeholder="Your last name">
+                                        <span class="contact__icon contact__icon-person">
+                                        <img src="src/img/icons/person-ico.svg" alt="">
+                                    </span>
+                                </div>
+                                <div class="col-12 contact__input-wrapper">
+                                    <label for="contactEmail" class="form-label"></label>
+                                    <input type="email" class="form-control contact__input" id="contactEmail"
+                                           placeholder="Your e-mail address">
+                                    <span class="contact__icon contact__icon-mail">
+                                        <img src="src/img/icons/mail.svg" alt="">
+                                    </span>
+                                </div>
 
-                    </div>
-                    <label for="contactEmail" class="form-label"></label>
-                    <input type="email" class="form-control landing__input" id="contactEmail"
-                           placeholder="Your e-mail address">
-                    <img src="src/img/icons/mail.svg">
-
-                    <textarea class="form-control landing__input" aria-label="With textarea"
-                              placeholder="Enter here your message"></textarea>
-                    <img src="src/img/icons/message.svg">
-                    <button type="submit" class="btn btn-primary">Send message</button>
-                </form>
+                                <div class="col-12 contact__input-wrapper">
+                                    <textarea class="form-control" aria-label="With textarea" placeholder="Enter here your message">
+                            </textarea>
+                                    <span class="contact__icon contact__icon-message">
+                                <img src="src/img/icons/message.svg">
+                            </span>
+                                </div>
+                            <button type="submit" class="btn btn-primary">Send message</button>
+                            </div>
+                        </form>
             </div>
+
         </div>
+    </div>
 </main>
 <footer class="container-fluid">
     <h5 class="title-sm">Contact us</h5>
