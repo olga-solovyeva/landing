@@ -373,12 +373,14 @@ a {
     background-size: 44px 58px; }
 
 .testimonials__photo {
-  position: relative; }
+  position: relative;
+  overflow: hidden;
+  padding: 0 0 70px 0; }
   .testimonials__photo:after {
     content: "";
     position: absolute;
     right: -180px;
-    bottom: -70px;
+    bottom: 0;
     width: 463px;
     height: 350px;
     background: linear-gradient(180deg, #8CF7F7 0%, #F76B1C 100%);

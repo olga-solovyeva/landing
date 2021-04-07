@@ -378,12 +378,15 @@ a {
 
     &__photo {
       position: relative;
+      overflow: hidden;
+      padding: 0 0 70px 0;
+
 
       &:after {
         content: "";
         position: absolute;
         right: -180px;
-        bottom: -70px;
+        bottom: 0;
 
         width: 463px;
         height: 350px;
