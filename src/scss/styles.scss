@@ -112,7 +112,9 @@ a {
 
 .features {
 
-  background-image: url("");
+  background-image: url("../img/background.png");
+
+  margin-bottom: 65px;
 
   &-row {
     margin-right: 100px;
@@ -141,18 +143,22 @@ a {
 
   }
 
+  &__img-wrapper {
+    margin-bottom: 32px;
+  }
+
   &__card {
-    border: none;
     max-width: 253px;
     margin-right: 50px;
 
+    &:first-of-type {
+      padding-top: 130px;
+    }
+
     &-img {
       &-md {
-        -o-transform: scale(2);
-        -ms-transform: scale(2);
-        -moz-transform: scale(2);
-        -webkit-transform: scale(2);
         transform: scale(2);
+        transform-origin: 0 0;
       }
     }
 
@@ -252,6 +258,9 @@ a {
 
     }
 
+    &-orange {
+      color: #F86B27;
+    }
   }
 
   .title {
@@ -298,6 +307,70 @@ a {
 
     &-dark-gray {
       color: #8D88A5;
+    }
+  }
+
+  .testimonials {
+
+    &__card {
+      max-width: 360px;
+      position: relative;
+
+      &:before {
+        content: "";
+        position: absolute;
+        left: 97px;
+        top: 10px;
+
+      }
+    }
+
+    &__text {
+      text-align:left;
+
+      margin-bottom: 62px;
+    }
+
+    &__subtitle {
+      text-align: left;
+
+      margin-bottom: 15px;
+    }
+
+    &__name {
+      font-style: normal;
+      font-weight: 300;
+      font-size: 32px;
+      line-height: 28px;
+
+      text-align: left;
+      letter-spacing: 0.120342px;
+
+      margin-bottom: 15px;
+
+      color: #5F5A76;
+    }
+
+    &__photo {
+      width: 966px;
+    }
+
+  }
+
+  .socials {
+    &__list {
+
+    }
+
+    &__item {
+      list-style: none;
+
+      padding: 0 16px 0 0;
+    }
+
+    &__link {
+      height: 16px;
+      width: 16px;
     }
   }
 
