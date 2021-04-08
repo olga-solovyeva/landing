@@ -228,7 +228,7 @@
                         offer!</p>
 
                         <form>
-                            <div class="row">
+                            <div class="row justify-content-end">
                                 <div class="col-6 contact__input-wrapper">
                                         <label for="contactFirstName" class="form-label"></label>
                                         <input type="text" class="form-control contact__input" id="contactFirstName"
@@ -254,14 +254,17 @@
                                     </span>
                                 </div>
 
-                                <div class="col-12 contact__input-wrapper">
-                                    <textarea class="form-control" aria-label="With textarea" placeholder="Enter here your message">
-                            </textarea>
+                                <div class="col-12 contact__input-wrapper contact__textarea">
+                                    <textarea class="form-control contact__input" aria-label="" placeholder="Enter here your message"></textarea>
+
+
                                     <span class="contact__icon contact__icon-message">
                                 <img src="src/img/icons/message.svg">
                             </span>
                                 </div>
-                            <button type="submit" class="btn btn-primary">Send message</button>
+                                <div class="col-6">
+                                    <button type="submit" class="btn contact__btn">Send message</button>
+                                </div>
                             </div>
                         </form>
             </div>

@@ -422,10 +422,27 @@ a {
 
 .contact__input-wrapper {
   position: relative;
-  margin: 16px 0; }
+  margin: 16px 0;
+  display: flex; }
 
 .contact__input {
   padding: 16px 50px 16px 32px; }
+
+.contact__textarea {
+  height: 170px; }
+
+.contact__btn {
+  width: 280px;
+  padding: 16px;
+  margin: 16px 0;
+  background: #FFE5D8;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #F86B27; }
 
 .form-control {
   background: #F2F0F6;
@@ -438,27 +455,7 @@ a {
   letter-spacing: 0.0538462px;
   color: #A09BB6; }
 
-input::-moz-placeholder {
-  color: #A09BB6;
-  font-weight: 300;
-  font-size: 14px; }
-
-input::-webkit-input-placeholder {
-  color: #A09BB6;
-  font-weight: 300;
-  font-size: 14px; }
-
-input::-ms-input-placeholder {
-  color: #A09BB6;
-  font-weight: 300;
-  font-size: 14px; }
-
-input::placeholder {
-  color: #A09BB6;
-  font-weight: 300;
-  font-size: 14px; }
-
-textarea::placeholder {
+::placeholder {
   color: #A09BB6;
   font-weight: 300;
   font-size: 14px; }

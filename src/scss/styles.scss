@@ -460,13 +460,35 @@ a {
     &__input-wrapper {
       position: relative;
       margin: 16px 0;
-
+      display: flex;
     }
 
     &__input {
       padding: 16px 50px 16px 32px;
     }
 
+    &__textarea {
+      height: 170px;
+    }
+
+    &__btn {
+      width: 280px;
+      padding: 16px;
+      margin: 16px 0;
+
+      background: #FFE5D8;
+      border-radius: 4px;
+
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+
+      text-align: center;
+
+      color: #F86B27;
+
+    }
 
   }
 
@@ -485,30 +507,9 @@ a {
   color: #A09BB6;
 
 }
-input::-moz-placeholder {
-  color: #A09BB6;
-  font-weight: 300;
-  font-size: 14px;
-}
-input::-webkit-input-placeholder {
-  color: #A09BB6;
-  font-weight: 300;
-  font-size: 14px; }
-
-input::-ms-input-placeholder {
-  color: #A09BB6;
-  font-weight: 300;
-  font-size: 14px;
-}
-input::placeholder {
+::placeholder {
   color: #A09BB6;
   font-weight: 300;
   font-size: 14px;
 
-}
-
-textarea::placeholder {
-  color: #A09BB6;
-  font-weight: 300;
-  font-size: 14px;
 }
