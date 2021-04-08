@@ -432,6 +432,9 @@ a {
 
   .contact {
 
+    padding-bottom: 234px;
+    z-index: 1;
+
     &__wrapper {
       margin-top: 60px;
       max-width: 588px;
@@ -510,8 +513,11 @@ a {
       background-repeat: no-repeat;
       background-size: 1276px 948px;
 
-      padding: 134px;
+      padding: 134px 0 234px 470px;
       position: absolute;
+      bottom: 0;
+
+      z-index: -1;
 
       .title, .text, .subtitle{
         text-align: left;

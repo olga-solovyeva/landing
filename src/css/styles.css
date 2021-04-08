@@ -401,60 +401,60 @@ a {
   height: 16px;
   width: 16px; }
 
-.contact__wrapper {
-  margin-top: 60px;
-  max-width: 588px;
-  margin-left: 60px; }
-  .contact__wrapper .subtitle, .contact__wrapper .title, .contact__wrapper .text {
-    text-align: left; }
-
-.contact__icon {
-  position: absolute;
-  right: 34px;
-  top: 19px; }
-  .contact__icon-person {
-    width: 12px;
-    height: 16px; }
-  .contact__icon-mail {
-    width: 20px;
-    height: 16px; }
-  .contact__icon-message {
+.contact {
+  padding-bottom: 234px;
+  z-index: 1; }
+  .contact__wrapper {
+    margin-top: 60px;
+    max-width: 588px;
+    margin-left: 60px; }
+    .contact__wrapper .subtitle, .contact__wrapper .title, .contact__wrapper .text {
+      text-align: left; }
+  .contact__icon {
     position: absolute;
-    width: 20px;
-    height: 16px; }
-  .contact__icon img {
-    vertical-align: 0; }
-
-.contact__input-wrapper {
-  position: relative;
-  margin: 16px 0;
-  display: flex; }
-
-.contact__input {
-  padding: 16px 50px 16px 32px; }
-
-.contact__textarea {
-  height: 170px; }
-
-.contact__btn {
-  width: 280px;
-  padding: 16px;
-  margin: 16px 0;
-  background: #FFE5D8;
-  border-radius: 4px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 21px;
-  text-align: center;
-  color: #F86B27; }
+    right: 34px;
+    top: 19px; }
+    .contact__icon-person {
+      width: 12px;
+      height: 16px; }
+    .contact__icon-mail {
+      width: 20px;
+      height: 16px; }
+    .contact__icon-message {
+      position: absolute;
+      width: 20px;
+      height: 16px; }
+    .contact__icon img {
+      vertical-align: 0; }
+  .contact__input-wrapper {
+    position: relative;
+    margin: 16px 0;
+    display: flex; }
+  .contact__input {
+    padding: 16px 50px 16px 32px; }
+  .contact__textarea {
+    height: 170px; }
+  .contact__btn {
+    width: 280px;
+    padding: 16px;
+    margin: 16px 0;
+    background: #FFE5D8;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #F86B27; }
 
 .footer__wrapper {
   background-image: url("../img/footer-background.svg");
   background-repeat: no-repeat;
   background-size: 1276px 948px;
-  padding: 134px;
-  position: absolute; }
+  padding: 134px 0 234px 470px;
+  position: absolute;
+  bottom: 0;
+  z-index: -1; }
   .footer__wrapper .title, .footer__wrapper .text, .footer__wrapper .subtitle {
     text-align: left; }
 
