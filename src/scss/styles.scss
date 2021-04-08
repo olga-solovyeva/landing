@@ -2,6 +2,7 @@
 
 body {
   font-family: Heebo, "Roboto Light", sans-serif;
+  position: relative;
 }
 
 a {
@@ -260,12 +261,12 @@ a {
 
     &-orange {
       color: #F86B27;
+
     }
   }
 
   .title {
 
-    font-family: Heebo;
     font-style: normal;
     font-weight: 300;
     font-size: 42px;
@@ -273,6 +274,8 @@ a {
 
     text-align: center;
     letter-spacing: 0.157949px;
+
+    color: #FFFFFF;
 
     &-navy {
       color: #1F0E93;
@@ -288,6 +291,10 @@ a {
 
     &-sm {
       font-size: 32px;
+    }
+
+    &-white {
+      color: #FFFFFF;
     }
   }
 
@@ -307,6 +314,10 @@ a {
 
     &-dark-gray {
       color: #8D88A5;
+    }
+
+    &-white {
+      color: #FFFFFF;
     }
   }
 
@@ -492,6 +503,42 @@ a {
 
   }
 
+  .footer {
+
+    &__wrapper {
+      background-image: url("../img/footer-background.svg");
+      background-repeat: no-repeat;
+      background-size: 1276px 948px;
+
+      padding: 134px;
+      position: absolute;
+
+      .title, .text, .subtitle{
+        text-align: left;
+      }
+    }
+
+    &__logo {
+
+      font-family: HelveticaNeue;
+      font-size: 18px;
+      line-height: 21px;
+
+      color: #FAFAFA;
+    }
+
+    &__copyright {
+
+      font-style: normal;
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 18px;
+
+      color: #D9B9D2;
+    }
+
+  }
+
 .form-control {
   background: #F2F0F6;
   box-shadow: inset 0px 0px 1px rgba(46, 32, 139, 0.23913);
@@ -513,3 +560,4 @@ a {
   font-size: 14px;
 
 }
+
