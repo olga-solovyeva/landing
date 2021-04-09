@@ -113,7 +113,7 @@ a {
 
 .features {
 
-  background-image: url("../img/background.png");
+  background-image: url("../img/features-linear-background.png");
 
   margin-bottom: 65px;
 
@@ -341,7 +341,7 @@ a {
         left: -97px;
         top: 10px;
 
-        background-image: url("../img/icons/testimonial-ico.svg");
+        background-image: url("../img/icons/testimonials-quote-ico.svg");
 
 
         width: 67px;
@@ -376,9 +376,9 @@ a {
       &:before {
         content: "";
         position: absolute;
-        left: -74px;
+        left: -85px;
 
-        background-image: url("../img/icons/person-ico.svg");
+        background-image: url("../img/icons/testimonials-person-ico.svg");
 
         width: 44px;
         height: 58px;
@@ -433,7 +433,8 @@ a {
   .contact {
 
     padding-bottom: 234px;
-    z-index: 1;
+    //background-image: url("../img/footer-linear-background.png");
+    //background-position-y: 103%;
 
     &__wrapper {
       margin-top: 60px;
@@ -509,15 +510,15 @@ a {
   .footer {
 
     &__wrapper {
-      background-image: url("../img/footer-background.svg");
-      background-repeat: no-repeat;
-      background-size: 1276px 948px;
-
-      padding: 134px 0 234px 470px;
+      background-image: url("../img/footer-background.svg"), url("../img/footer-linear-background.png");
+      background-repeat: no-repeat, no-repeat;
+      background-position: 0 bottom;
+      padding: 134px 0 234px 440px;
       position: absolute;
       bottom: 0;
-
       z-index: -1;
+
+
 
       .title, .text, .subtitle{
         text-align: left;
