@@ -52,15 +52,15 @@ a {
   }
 
     &__input-wrapper {
-      max-width: 320px;
-      width: 320px;
+      max-width: 100%;
+      min-width: 320px;
       position: relative;
       height: 100%;
       display: flex;
     }
 
     &__input {
-      padding: 0 70px 0 32px;
+      padding: 17px 70px 17px 32px;
 
     }
 
@@ -86,11 +86,8 @@ a {
       background: #FFEEEE;
       border-radius: 4px;
 
-      font-family: Heebo;
-      font-style: normal;
       font-weight: 500;
       font-size: 14px;
-      line-height: 21px;
 
       text-align: center;
       letter-spacing: 0.0526496px;

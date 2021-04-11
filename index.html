@@ -9,26 +9,54 @@
     <link rel="stylesheet" type="text/css" href="src/css/styles.css">
 </head>
 <body>
-<header class="container header__container">
-    <div class="row align-items-center justify-content-between">
-        <div class="col-md-auto">
-            <a class="header__logo">LP Template</a>
-        </div>
-        <div class="col-md-auto header__menu">
-            <ul class="nav menu__list justify-content-end">
-                <li class="nav-item menu__item">
-                    <a class="nav-link menu__link active" aria-current="page" href="#">Features</a>
+<!--<header class="container header__container">-->
+<!--    <div class="row align-items-center justify-content-between">-->
+<!--        <div class="col-md-auto">-->
+<!--            <a class="header__logo">LP Template</a>-->
+<!--        </div>-->
+<!--        <div class="col-md-auto header__menu">-->
+<!--            <ul class="nav menu__list justify-content-end">-->
+<!--                <li class="nav-item menu__item">-->
+<!--                    <a class="nav-link menu__link active" aria-current="page" href="#">Features</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item menu__item">-->
+<!--                    <a class="nav-link menu__link" href="#">Testimonials</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item menu__item">-->
+<!--                    <a class="nav-link menu__link" href="#">Contact</a>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</header>-->
+
+<header>
+    <nav class="navbar navbar-expand-md container header__container">
+        <a class="navbar-brand header__logo" href="#">LP Template</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="src/img/icons/sandwich-icon.svg">
+        </button>
+
+        <div class="collapse navbar-collapse header__menu justify-content-end" id="navbarSupportedContent">
+            <ul class="nav menu__list">
+                <li class="nav-item menu__item active">
+                    <a class="nav-link menu__link" href="#">Features</a>
                 </li>
                 <li class="nav-item menu__item">
                     <a class="nav-link menu__link" href="#">Testimonials</a>
                 </li>
                 <li class="nav-item menu__item">
-                    <a class="nav-link menu__link" href="#">Contact</a>
+                    <a class="nav-link menu__link" href="#" >
+                        Contact
+                    </a>
                 </li>
+
             </ul>
         </div>
-    </div>
+    </nav>
+
 </header>
+
 <main class="container-fluid p-md-0">
     <div class="container-fluid intro__wrapper">
         <h6 class="subtitle subtitle-red">Check this out!</h6>
@@ -36,7 +64,7 @@
         <p class="text text-gray intro__text">Let us introduce you to our great product that will solve your problems
             and make your life easier! Start your free trial today and see for yourself how easy it is.</p>
         <form class="row justify-content-center">
-            <div class="col-md-auto">
+            <div class="col-sm-auto col-12 mb-3 mb-s-0">
                 <div class="intro__input-wrapper">
                     <label for="inputEmail" class="visually-hidden"></label>
                     <input type="email" class="form-control intro__input" id="inputEmail"
@@ -46,7 +74,7 @@
                     </span>
                 </div>
             </div>
-            <div class="col-md-auto">
+            <div class="col-md-auto col-12">
                 <button type="submit" class="btn intro__btn"> Get our product now!</button>
             </div>
         </form>
@@ -176,7 +204,7 @@
         <div class="row">
             <div class="col-6">
                 <div class="row justify-content-end align-items-center">
-                    <div class="col-md-auto">
+                    <div class="col-md-auto pe-5">
                         <div class="testimonials__card">
                             <p class="text-dark-gray testimonials__text text">
                                 When I first heard about the Product, I wasn’t convinced. But my friends and coworkers
